@@ -1,0 +1,33 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: BaseDice
+  components:
+  - type: Dice
+  - type: ItemCooldown
+  - type: UseDelay
+  - type: Sprite
+    sprite: Objects/Fun/dice.rsi
+    noRot: true # If their sprites rotate, the number becomes even more illegible than usual.
+  - type: Tag
+    tags:
+    - Dice
+  - type: Item
+    size: 2
+
+- type: entity
+  parent: BaseDice
+  id: chaosDice
+  name: chaos dice
+  description: Um dado que a cada jogada pode nos deixar mais próximo ao fim
+  components:
+  - type: Dice
+    sides: 20
+    currentValue: 20
+  - type: Sprite
+    state: d20_20
+  - type: PointLight
+    radius: 1.5
+    energy: 2
+  - type: RgbLightController
+    layers: [ 0 ]
