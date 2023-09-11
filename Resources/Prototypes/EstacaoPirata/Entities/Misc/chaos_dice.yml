@@ -1,29 +1,27 @@
 - type: entity
   abstract: true
-  parent: BaseItem
-  id: BaseDice
+  parent: BaseDice
+  id: BaseChaosDice
   components:
+  - type: ChaosDice
   - type: Dice
-  - type: ItemCooldown
-  - type: UseDelay
-  - type: Sprite
-    sprite: Objects/Fun/dice.rsi
-    noRot: true # If their sprites rotate, the number becomes even more illegible than usual.
   - type: Tag
     tags:
     - Dice
-  - type: Item
-    size: 2
 
 - type: entity
-  parent: BaseDice
-  id: chaosDice
+  parent: BaseChaosDice
+  id: chaosDiceProto
   name: chaos dice
-  description: Um dado que a cada jogada pode nos deixar mais próximo ao fim
+  description: Um dado que a cada rolada fere estabilidade do mundo pouco em pouco
   components:
   - type: Dice
-    sides: 20
-    currentValue: 20
+    sides: 2
+    currentValue: 2
+  - type: ChaosDice
+    ruleSpawn:
+    - type: AnomalySpawn
+    - type: KudzuGrowth
   - type: Sprite
     state: d20_20
   - type: PointLight

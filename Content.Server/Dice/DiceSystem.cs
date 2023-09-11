@@ -1,4 +1,6 @@
 using Content.Shared.Dice;
+using Content.Shared.EstacaoPirata.ChaosDice;
+using Content.Server.EstacaoPirata.ChaosDice;
 using Content.Shared.Popups;
 using JetBrains.Annotations;
 using Robust.Shared.Random;
@@ -11,11 +13,17 @@ public sealed class DiceSystem : SharedDiceSystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private readonly ChaosDiceSystem _chaosDiceSys = default!;
 
-    public override void Roll(EntityUid uid, DiceComponent? die = null)
+    public override void Roll(EntityUid uid, ChaosDiceComponent chaos, DiceComponent? die = null)
     {
         if (!Resolve(uid, ref die))
             return;
+        if (chaos != null)
+        {
+            _chaosDiceSys.Roll(uid, chaos, die);
+            return;
+        }
 
         var roll = _random.Next(1, die.Sides + 1);
         SetCurrentSide(uid, roll, die);

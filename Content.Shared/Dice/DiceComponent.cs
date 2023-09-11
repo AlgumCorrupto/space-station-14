@@ -1,10 +1,11 @@
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
+using Content.Shared.EstacaoPirata.ChaosDice;
 
 namespace Content.Shared.Dice;
 
-[RegisterComponent, NetworkedComponent, Access(typeof(SharedDiceSystem))]
+[RegisterComponent, NetworkedComponent, Access(typeof(SharedDiceSystem), typeof(SharedChaosDiceSystem))]
 public sealed partial class DiceComponent : Component
 {
     [DataField("sound")]
@@ -24,7 +25,7 @@ public sealed partial class DiceComponent : Component
     public int Offset { get; private set; } = 0;
 
     [DataField("sides")]
-    public int Sides { get; private set; } = 20;
+    public int Sides { get; set; } = 20;
 
     /// <summary>
     ///     The currently displayed value.

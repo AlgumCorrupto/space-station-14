@@ -1,3 +1,4 @@
+using Content.Shared.EstacaoPirata.ChaosDice;
 using Content.Shared.Examine;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Throwing;
@@ -37,12 +38,12 @@ public abstract class SharedDiceSystem : EntitySystem
             return;
 
         args.Handled = true;
-        Roll(uid, component);
+        Roll(uid, new ChaosDiceComponent { });
     }
 
     private void OnLand(EntityUid uid, DiceComponent component, ref LandEvent args)
     {
-        Roll(uid, component);
+        Roll(uid, new ChaosDiceComponent(),component);
     }
 
     private void OnExamined(EntityUid uid, DiceComponent dice, ExaminedEvent args)
@@ -87,7 +88,7 @@ public abstract class SharedDiceSystem : EntitySystem
         // See client system.
     }
 
-    public virtual void Roll(EntityUid uid, DiceComponent? die = null)
+    public virtual void Roll(EntityUid uid, ChaosDiceComponent chaos, DiceComponent? die = null)
     {
         // See the server system, client cannot predict rolling.
     }
