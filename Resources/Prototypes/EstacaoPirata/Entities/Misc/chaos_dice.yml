@@ -20,8 +20,8 @@
     currentValue: 2
   - type: ChaosDice
     ruleSpawn:
-    - type: AnomalySpawn
-    - type: KudzuGrowth
+    - type: GiftsPizzaPartySmall
+    - type:  GiftsJanitor
   - type: Sprite
     state: d20_20
   - type: PointLight

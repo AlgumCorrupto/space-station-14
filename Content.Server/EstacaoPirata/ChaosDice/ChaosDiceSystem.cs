@@ -1,11 +1,13 @@
+using System;
 using Content.Shared.Dice;
 using Content.Shared.Popups;
 using JetBrains.Annotations;
 using Robust.Shared.Random;
-
+using Content.Shared.Storage;
 using Content.Shared.EstacaoPirata.ChaosDice;
 using Content.Server.GameTicking;
 using System.Linq;
+using System.Xml.Schema;
 
 namespace Content.Server.EstacaoPirata.ChaosDice;
 
@@ -38,13 +40,16 @@ public sealed class ChaosDiceSystem : SharedChaosDiceSystem {
 
 
         var roll = _random.Next(1, die.Sides + 1);
-        var rule = chaos.Rules.ElementAt(roll - 1).ToString();
+        var ev = _random.Next(0, die.Sides - 1);
+        // var rule = EntitySpawnCollection.GetSpawns(chaos.Rules, _random);
 
         _shareddice.SetCurrentSide(uid, roll, die);
 
+        foreach (var rule in EntitySpawnCollection.GetSpawns(chaos.Rules, _random))
+            System.Console.WriteLine(rule);
         // TODO: consertar essa MERDA
-        if (rule != null)
-            _gameticker.AddGameRule(rule);
+        //if (rule != null)
+        //   _gameticker.AddGameRule(rule);
 
         _popup.PopupEntity(Loc.GetString("dice-component-on-roll-land", ("die", uid), ("currentSide", die.CurrentValue)), uid);
         _audio.PlayPvs(die.Sound, uid);

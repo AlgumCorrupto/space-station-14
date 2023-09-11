@@ -15,7 +15,7 @@ public sealed class DiceSystem : SharedDiceSystem
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly ChaosDiceSystem _chaosDiceSys = default!;
 
-    public override void Roll(EntityUid uid, ChaosDiceComponent chaos, DiceComponent? die = null)
+    public override void Roll(EntityUid uid, DiceComponent? die = null, ChaosDiceComponent? chaos = null)
     {
         if (!Resolve(uid, ref die))
             return;

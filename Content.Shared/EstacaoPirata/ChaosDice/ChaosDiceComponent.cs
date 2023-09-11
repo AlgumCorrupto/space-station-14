@@ -13,6 +13,6 @@ public sealed partial class ChaosDiceComponent : Component
     /// Lista de eventos que o Chaos Dice pode causar
     /// </summary>
     [DataField("ruleSpawn")]
-    public List<EntitySpawnEntry> Rules;
+    public List<EntitySpawnEntry> Rules = new();
 
 }

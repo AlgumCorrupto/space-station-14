@@ -10,9 +10,9 @@ namespace Content.Shared.EstacaoPirata.ChaosDice;
 public abstract class SharedChaosDiceSystem : EntitySystem
 {
 
-    public override void Initialize ()
+    public override void Initialize()
     {
-        base.Initialize ();
+        base.Initialize();
     }
     public virtual bool OnInit(EntityUid uid, DiceComponent die, ChaosDiceComponent chaos)
     {
