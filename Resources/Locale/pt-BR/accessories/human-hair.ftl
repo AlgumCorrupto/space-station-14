@@ -39,7 +39,9 @@ marking-HumanHairBuzzcut = Moicano
 marking-HumanHairCia = Agente
 marking-HumanHairClassicAfro = Afro Clássico
 marking-HumanHairClassicBigAfro = Afro Grande Clássico
+marking-HumanHairClassicBusiness = Corte Clássico Corporativo (CCC)
 marking-HumanHairClassicCia = CIA Clássico
+marking-HumanHairClassicCornrows2 = Trancinha Clássica 2
 marking-HumanHairClassicFloorlengthBedhead = Clássico Comprimento do chão Bedhead
 marking-HumanHairClassicModern = Moderno Clássico
 marking-HumanHairClassicMulder = Mulder Clássico
@@ -181,3 +183,5 @@ marking-HumanHairVeryshortovereyealternate = Muito Curto No Olho
 marking-HumanHairVlongfringe = Muito Longo Com Franja
 marking-HumanHairVolaju = Desarrumado
 marking-HumanHairWisp = Ariana Grande
+marking-HumanHairUneven = Corte Desproporcional
+

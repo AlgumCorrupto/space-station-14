@@ -1,0 +1,9 @@
+upgradeaction-command-need-one-argument = upgradeaction precisa de pelo menos um argumento, a uid da entidade. O segundo argumento opcional é um nível especificado.
+upgradeaction-command-max-two-arguments = upgradeaction aceita no máximo 2 argumentos, a uid da entidade e o nível para atualizar (opcional).
+upgradeaction-command-second-argument-not-number = o segundo argumento de upgradeaction pode ser apenas um número.
+upgradeaction-command-less-than-required-level = upgradeaction não pode receber um nível inferior ou igual a 0 (zero).
+upgradeaction-command-incorrect-entityuid-format = Você deve utilizar de um formato válido para o uid da entidade.
+upgradeaction-command-entity-does-not-exist = Essa entidade não existe, uma entidade válida é requerida para upgradeaction.
+upgradeaction-command-entity-is-not-action = Essa entidade não tem um um componente válido que permita ela ser melhorada, portanto essa ação não pode ser melhorada.
+upgradeaction-command-cannot-level-up = Essa ação não pode ser melhorada.
+upgradeaction-command-description = Melhora a ação 1 nivel, ou até o nível especificado.

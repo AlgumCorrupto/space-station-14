@@ -12,7 +12,8 @@ admin-smite-turned-ash-other = {CAPITALISE($name)} virou pó!
 admin-smite-stomach-removal-self = Seu estômago parece vazio...
 admin-smite-run-walk-swap-prompt = Você tem que pressionar shift para correr!
 admin-smite-super-speed-prompt = Você se move a mach 0.8!
-admin-smite-lung-removal-self = Você não pode respirar!
+admin-smite-lung-removal-self = Você não consegue respirar!
+admin-smite-terminate-prompt = Eu voltarei.
 
 
 ## Smite descriptions
@@ -55,6 +56,9 @@ admin-smite-lung-removal-description = Remove seus pulmões, afogando-os.
 admin-smite-remove-hand-description = Remove apenas uma de suas mãos em vez de todas elas.
 admin-smite-disarm-prone-description = Faz com que sejam desarmados 100% do tempo e algemados instantaneamente.
 admin-smite-garbage-can-description = Transforme-os em uma lixeira para enfatizar o que eles lembram.
++admin-smite-super-bonk-description = Slams them on every single table on the Station and beyond.
++admin-smite-super-bonk-lite-description= Arreguace ele(a) em todas as mesas da estação e além... Até ele(a) estar morto.
++admin-smite-terminate-description = Creates a Terminator ghost role with the sole objective of killing them.
 
 
 ## Tricks descriptions
