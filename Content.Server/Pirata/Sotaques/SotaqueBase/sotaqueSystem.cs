@@ -22,8 +22,8 @@ abstract class AccentEngine : EntitySystem
     virtual protected IEnumerable<ResPath> final_path { get; set; } = default!;
     public string Take(string message)
     {
-        Log.Debug(this.path);
-        Log.Debug(this.file);
+        //Log.Debug(this.path);
+        //Log.Debug(this.file);
         //freakin modify the word
         string[] tokens = message.Split(' ');
         Regex regex = new Regex("\\W+\\Z");
@@ -173,7 +173,7 @@ abstract class AccentEngine : EntitySystem
 
         var file = final_path.ElementAt(0);
         this.file = _resource.ContentFileReadText(file).ReadToEnd();
-        Log.Debug(final_path.ElementAt(0).CanonPath);
-        Log.Debug(this.file);
+        //Log.Debug(final_path.ElementAt(0).CanonPath);
+        //Log.Debug(this.file);
     }
 }

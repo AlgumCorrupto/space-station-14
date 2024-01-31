@@ -9,6 +9,7 @@ sealed class SotaqueCarioca : AccentEngine
     public override void Initialize()
     {
         SubscribeLocalEvent<SotaquePortunholComponent, AccentGetEvent>(OnAccent);
+        getPath();
     }
     override protected string path { get; set; } = "/Prototypes/EstacaoPirata/Sotaques/Portunhol";
     private void OnAccent(EntityUid uid, SotaquePortunholComponent component, AccentGetEvent args)
