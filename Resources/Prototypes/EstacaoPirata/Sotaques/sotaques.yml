@@ -32,3 +32,10 @@
   description: Sotaque falado pledominantemente pelo Cebolinha
   components:
   - type: SotaquedoCebolinha
+
+- type: trait
+  id: Presidencial
+  name: Sotaque Presidencial
+  description: Olá meuƒ camaradaƒ vamoƒ tomar uma caipirinha
+  components:
+  - type: SotaquePresidencial
