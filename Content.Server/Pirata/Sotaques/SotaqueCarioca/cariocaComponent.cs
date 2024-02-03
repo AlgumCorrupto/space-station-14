@@ -1,7 +1,7 @@
 namespace Pirata.Sotaque.Carioca;
 
 /// <summary>
-///     Hiss!
+///     Ixqueiro, bixcoito
 /// </summary>
 [RegisterComponent]
 public sealed partial class SotaqueCariocaComponent : Component

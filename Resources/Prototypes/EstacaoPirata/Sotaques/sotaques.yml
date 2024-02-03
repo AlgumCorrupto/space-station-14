@@ -39,3 +39,10 @@
   description: Olá meuƒ camaradaƒ vamoƒ tomar uma caipirinha
   components:
   - type: SotaquePresidencial
+
+- type: trait
+  id: Barulhento
+  name: Barulhento
+  description: VOCÊ SÓ CONSEQUE FALAR ALTO!!!!!!!!!!!!!!!!!!!!!!!! (PEGOU O VIRUS DO CAPS LOCK)
+  components:
+  - type: SotaqueBarulhento
