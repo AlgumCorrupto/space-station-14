@@ -25,3 +25,10 @@
   description: Sotaque direto da quebrada paulista
   components:
   - type: SotaquePaulista
+
+- type: trait
+  id: Cebolês
+  name: Cebolês
+  description: Sotaque falado pledominantemente pelo Cebolinha
+  components:
+  - type: SotaquedoCebolinha

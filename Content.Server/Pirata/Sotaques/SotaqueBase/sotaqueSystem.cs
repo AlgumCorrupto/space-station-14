@@ -25,6 +25,11 @@ abstract class AccentEngine : EntitySystem
         //Log.Debug(this.path);
         //Log.Debug(this.file);
         //freakin modify the word
+        if(path == "")
+        {
+            message = Parse(message);
+            return message;
+        }
         string[] tokens = message.Split(' ');
         Regex regex = new Regex("\\W+\\Z");
         List<string> moddedTokens = new List<string>();
@@ -168,12 +173,14 @@ abstract class AccentEngine : EntitySystem
         return modded;
     }
     protected void getPath() {
+        if(path == null) {
+            return;
+        }
+
         var directory = new ResPath(path);
         var final_path = _resource.ContentFindFiles(directory);
 
         var file = final_path.ElementAt(0);
         this.file = _resource.ContentFileReadText(file).ReadToEnd();
-        //Log.Debug(final_path.ElementAt(0).CanonPath);
-        //Log.Debug(this.file);
     }
 }
