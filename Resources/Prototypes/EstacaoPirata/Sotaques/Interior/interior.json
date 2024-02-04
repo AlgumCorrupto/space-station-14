@@ -1,0 +1,835 @@
+{
+    "words": [
+        {
+            "og": [
+                "lanterna",
+                "flashlight",
+                "fleshlight"
+            ],
+            "mod": ["lampião"]
+        },
+        {
+            "og": [
+                "lanternas",
+                "flashlights",
+                "fleshlights"
+            ],
+            "mod": ["lampiões"]
+        },
+        {
+            "og": [
+                "preguiçoso"
+            ],
+            "mod": ["baiano"]
+        },
+        {
+            "og": [
+                "preguiçosos"
+            ],
+            "mod": ["baianos"]
+        },
+        {
+            "og": [
+                "botânico"
+            ],
+            "mod": ["colheiteiro"]
+        },
+        {
+            "og": [
+                "botânicos"
+            ],
+            "mod": ["colheiteiros"]
+        },
+        {
+            "og": [
+                "botanista"
+            ],
+            "mod": ["colheiteira"]
+        },
+        {
+            "og": [
+                "botany"
+            ],
+            "mod": ["colheitadeira"]
+        },
+        {
+            "og": [
+                "zelador",
+                "janitor"
+            ],
+            "mod": ["empregado doméstico"]
+        },
+        {
+            "og": [
+                "atirou",
+                "jogou",
+                "arremessou"
+            ],
+            "mod": ["avoou"]
+        },
+        {
+            "og": [
+                "atirar",
+                "jogar",
+                "arremessar"
+            ],
+            "mod": ["avoar"]
+        },
+        {
+            "og": [
+                "atirei",
+                "joguei",
+                "arremessei"
+            ],
+            "mod": ["avoei"]
+        },
+        {
+            "og": [
+                "atirado",
+                "jogado",
+                "arremessado"
+            ],
+            "mod": ["avoado"]
+        },
+        {
+            "og": [
+                "atiraram",
+                "jogaram",
+                "arremessaram"
+            ],
+            "mod": ["avoaram"]
+        },
+        {
+            "og": [
+                "puto",
+                "chateado",
+                "raivoso",
+                "bolado",
+                "bravo"
+            ],
+            "mod": ["abilobado", "emburrado", "invocado"]
+        },
+        {
+            "og": [
+                "zeladora"
+            ],
+            "mod": ["empregada doméstica"]
+        },
+        {
+            "og": [
+                "sec"
+            ],
+            "mod": ["janguço"]
+        },
+        {
+            "og": [
+                "secs"
+            ],
+            "mod": ["janguços"]
+        },
+        {
+            "og": [
+                "abóbora"
+            ],
+            "mod": ["jerinum"]
+        },
+        {
+            "og": [
+                "escuro"
+            ],
+            "mod": [
+                "empretecido"
+            ]
+        },
+        {
+            "og": [
+                "metido"
+            ],
+            "mod": [
+                "enxerido"
+            ]
+        },
+        {
+            "og": [
+                "envenenado"
+            ],
+            "mod": [
+                "empaxado"
+            ]
+        },
+        {
+            "og": [
+                "enganar",
+                "iludir"
+            ],
+            "mod": [
+                "engabelar"
+            ]
+        },
+        {
+            "og": [
+                "enganou",
+                "iludiu"
+            ],
+            "mod": [
+                "engabelou"
+            ]
+        },
+        {
+            "og": [
+                "enganaram",
+                "iludiram"
+            ],
+            "mod": [
+                "engabelaram"
+            ]
+        },
+        {
+            "og": [
+                "rico"
+            ],
+            "mod": [
+                "estribado"
+            ]
+        },
+        {
+            "og": [
+                "sei"
+            ],
+            "mod": [
+                "sabo"
+            ]
+        },
+        {
+            "og": [
+                "retardado",
+                "noob",
+                "idiota",
+                "imbecil"
+            ],
+            "mod": ["alesado"]
+        },
+        {
+            "og": [
+                "andando",
+                "caminhando"
+            ],
+            "mod": ["arrodeando"]
+        },
+        {
+            "og": [
+                "andar",
+                "caminhar"
+            ],
+            "mod": ["arrodear"]
+        },
+        {
+            "og": [
+                "andei",
+                "caminhei"
+            ],
+            "mod": ["arrodeei"]
+        },
+        {
+            "og": [
+                "andaram",
+                "caminharam"
+            ],
+            "mod": ["arrodearam"]
+        },
+        {
+            "og": [
+                "apertado"
+            ],
+            "mod": ["arrochado"]
+        },
+        {
+            "og": [
+                "imaginar"
+            ],
+            "mod": ["avaliar"]
+        },
+        {
+            "og": [
+                "imagine"
+            ],
+            "mod": ["avalie"]
+        },
+        {
+            "og": [
+                "sai",
+                "vaza",
+                "xispa"
+            ],
+            "mod": ["arriba"]
+        },
+        {
+            "og": [
+                "lento",
+                "lenta"
+            ],
+            "mod": ["aruá", "babão"]
+        },
+        {
+            "og": [
+                "lentos",
+                "lentas"
+            ],
+            "mod": ["aruás", "babões"]
+        },
+        {
+            "og": [
+                "destraído"
+            ],
+            "mod": ["avuado"]
+        },
+        {
+            "og": [
+                "gay",
+                "homossexual",
+                "viado",
+                "lésbica"
+            ],
+            "mod": ["baitola"]
+        },
+        {
+            "og": [
+                "lento",
+                "lenta"
+            ],
+            "mod": ["aruá"]
+        },
+        {
+            "og": [
+                "confusão"
+            ],
+            "mod": ["bafafá"]
+        },
+        {
+            "og": [
+                "medroso",
+                "covarde"
+            ],
+            "mod": [
+                "froxo"
+            ]
+        },
+        {
+            "og": [
+                "desculpa"
+            ],
+            "mod": [
+                "foi mal"
+            ]
+        },
+        {
+            "og": [
+                "bizarro",
+                "estranho"
+            ],
+            "mod": ["bizonho"]
+        },
+        {
+            "og": [
+                "longe"
+            ],
+            "mod": ["brenha"]
+        },
+        {
+            "og": [
+                "sobrou"
+            ],
+            "mod": ["boiou"]
+        },
+        {
+            "og": [
+                "olha"
+            ],
+            "mod": ["óia"]
+        },
+        {
+            "og": [
+                "cu",
+                "bunda",
+                "ânus"
+            ],
+            "mod": ["boga"]
+        },
+        {
+            "og": [
+                "brigueiro"
+            ],
+            "mod": ["caceteito"]
+        },
+        {
+            "og": [
+                "homem",
+                "menino",
+                "garoto"
+            ],
+            "mod": ["cabra", "boi"]
+        },
+        {
+            "og": [
+                "braço",
+                "perna"
+            ],
+            "mod": ["cotoco"]
+        },
+        {
+            "og": [
+                "menina",
+                "mulher",
+                "garota"
+            ],
+            "mod": ["mina", "muié"]
+        },
+        {
+            "og": [
+                "porrada",
+                "soco",
+                "cascudo"
+            ],
+            "mod": ["cocorote"]
+        },
+        {
+            "og": [
+                "caprichar"
+            ],
+            "mod": ["dar o grau"]
+        },
+        {
+            "og": [
+                "coisa"
+            ],
+            "mod": ["trem"]
+        },
+        {
+            "og": [
+                "roubaram"
+            ],
+            "mod": ["marretaram"]
+        },
+        {
+            "og": [
+                "roubei"
+            ],
+            "mod": ["marretei"]
+        },
+        {
+            "og": [
+                "roubou"
+            ],
+            "mod": ["marretou"]
+        },
+        {
+            "og": [
+                "você"
+            ],
+            "mod": ["docê"]
+        },
+        {
+            "og": [
+                "vocês"
+            ],
+            "mod": ["docês"]
+        },
+        {
+            "og": [
+                "roubar"
+            ],
+            "mod": ["marretar"]
+        },
+        {
+            "og": [
+                "mãe"
+            ],
+            "mod": ["mainha"]
+        },
+        {
+            "og": [
+                "tripulante",
+                "povo",
+                "povos",
+                "tripulantes"
+            ],
+            "mod": ["mundiça"]
+        },
+        {
+            "og": [
+                "capriche"
+            ],
+            "mod": ["dá o grau"]
+        },
+        {
+            "og": [
+                "onde"
+            ],
+            "mod": ["ondonde"]
+        },
+        {
+            "og": [
+                "ué",
+                "ah"
+            ],
+            "mod": ["oxi"]
+        },
+        {
+            "og": [
+                "tecla",
+                "botão"
+            ],
+            "mod": ["pitoco"]
+        },
+        {
+            "og": [
+                "pai"
+            ],
+            "mod": ["painho"]
+        },
+        {
+            "og": [
+                "desisto"
+            ],
+            "mod": ["peço penico"]
+        },
+        {
+            "og": [
+                "desista",
+                "desiste"
+            ],
+            "mod": ["peça penico"]
+        },
+        {
+            "og": [
+                "desistiu"
+            ],
+            "mod": ["pediu penico"]
+        },
+        {
+            "og": [
+                "desistam"
+            ],
+            "mod": ["pediram penico"]
+        },
+        {
+            "og": [
+                "tiro",
+                "explosão"
+            ],
+            "mod": ["pipoco"]
+        },
+        {
+            "og": [
+                "provavelmente"
+            ],
+            "mod": ["possa ser"]
+        },
+        {
+            "og": [
+                "graytider",
+                "graytide",
+                "tider",
+                "tide"
+            ],
+            "mod": ["presepeiro"]
+        },
+        {
+            "og": [
+                "caprichou"
+            ],
+            "mod": ["deu o grau"]
+        },
+        {
+            "og": [
+                "merda",
+                "ruim"
+            ],
+            "mod": ["paia"]
+        },
+        {
+            "og": [
+                "verdadeiro"
+            ],
+            "mod": ["divera"]
+        },
+        {
+            "og": [
+                "desde"
+            ],
+            "mod": ["derna"]
+        },
+        {
+            "og": [
+                "desnibido",
+                "descontraído"
+            ],
+            "mod": ["desenxavido"]
+        },
+        {
+            "og": [
+                "magro"
+            ],
+            "mod": ["desmilinguido"]
+        },
+        {
+            "og": [
+                "atrevido",
+                "desgraçado"
+            ],
+            "mod": ["disgramado"]
+        },
+        {
+            "og": [
+                "jaqueta",
+                "moletom"
+            ],
+            "mod": ["gibão"]
+        },
+        {
+            "og": [
+                "robusto",
+                "corajoso"
+            ],
+            "mod": ["raçudo", "tampa"]
+        },
+        {
+            "og": [
+                "quebrar"
+            ],
+            "mod": ["torar"]
+        },
+        {
+            "og": [
+                "quebrou"
+            ],
+            "mod": ["torou"]
+        },
+        {
+            "og": [
+                "quebramos"
+            ],
+            "mod": ["toramos"]
+        },
+        {
+            "og": [
+                "quebraram"
+            ],
+            "mod": ["toraram"]
+        },
+        {
+            "og": [
+                "quebrei"
+            ],
+            "mod": ["torei"]
+        },
+        {
+            "og": [
+                "puta",
+                "vadia"
+            ],
+            "mod": ["égua", "rapariga"]
+        },
+        {
+            "og": [
+                "com"
+            ],
+            "mod": ["cum"]
+        },
+        {
+            "og": [
+                "acaba"
+            ],
+            "mod": ["caba"]
+        },
+        {
+            "og": [
+                "acabou"
+            ],
+            "mod": ["cabou"]
+        },
+        {
+            "og": [
+                "nós"
+            ],
+            "mod": ["nois"]
+        },
+        {
+            "og": [
+                "te"
+            ],
+            "mod": [
+                "lhe"
+            ]
+        },
+        {
+            "og": [
+                "estaria"
+            ],
+            "mod": [
+                "taria"
+            ]
+        }
+    ],
+    "phrases": [
+        {
+            "og": [
+                "let's go",
+                "lets go",
+                "vamos lá",
+                "vamo lá"
+            ],
+            "mod": [
+                "YEEEEEEHAWWW"
+            ]
+        },
+        {
+            "og": [
+                "sai da frente",
+                "sai do caminho"
+            ],
+            "mod": [
+                "arreda"
+            ]
+        },
+        {
+            "og": [
+                "sem grana",
+                "sem dinheiro"
+            ],
+            "mod": [
+                "liso"
+            ]
+        },
+        {
+            "og": [
+                "que isso"
+            ],
+            "mod": [
+                "uai"
+            ]
+        },
+        {
+            "og": [
+                "muito legal",
+                "bacana",
+                "porreta"
+            ],
+            "mod": [
+                "presepeiro"
+            ]
+        },
+        {
+            "og": [
+                "quanto custa",
+                "qual é o valor",
+                "quanto é que custa",
+                "quanto é"
+            ],
+            "mod": [
+                "a como é",
+                "acumé"
+            ]
+        },
+        {
+            "og": [
+                "de verdade"
+            ],
+            "mod": [
+                "divera"
+            ]
+        },
+        {
+            "og": [
+                "igual a",
+                "igual o",
+                "tal qual"
+            ],
+            "mod": [
+                "que nem"
+            ]
+        },
+        {
+            "og": [
+                "filho da puta"
+            ],
+            "mod": [
+                "disgramado",
+                "filo duma égua"
+            ]
+        },
+        {
+            "og": [
+                "filha da puta"
+            ],
+            "mod": [
+                "disgramada",
+                "fila duma égua"
+            ]
+        },
+        {
+            "og": [
+                "muito bom"
+            ],
+            "mod": [
+                "é o deiz"
+            ]
+        },
+        {
+            "og": [
+                "de uma"
+            ],
+            "mod": [
+                "duma"
+            ]
+        },
+        {
+            "og": [
+                "de um"
+            ],
+            "mod": [
+                "dum"
+            ]
+        },
+        {
+            "og": [
+                "para o"
+            ],
+            "mod": [
+                "pru"
+            ]
+        },
+        {
+            "og": [
+                "para a"
+            ],
+            "mod": [
+                "pra"
+            ]
+        },
+        {
+            "og": [
+                "por uma"
+            ],
+            "mod": [
+                "puruma"
+            ]
+        },
+        {
+            "og": [
+                "por uma"
+            ],
+            "mod": [
+                "puruma"
+            ]
+        }
+    ],
+    "ending": [
+        "Uai!",
+        "Uai sô"
+    ],
+    "begin": [
+        "Maninha! Ó",
+        "Arrocha!"
+    ]
+}
