@@ -3,10 +3,15 @@ health-analyzer-window-entity-unknown-text = desconhecido
 health-analyzer-window-entity-health-text = Saúde de {$entityName}:
 health-analyzer-window-entity-temperature-text = Temperatura: {$temperature}
 health-analyzer-window-entity-blood-level-text = Nível de sangue: {$bloodLevel}
+health-analyzer-window-entity-bleeding-text = O paciente está sangrando!
 health-analyzer-window-entity-damage-total-text = Dano Total: {$amount}
 health-analyzer-window-damage-group-text = {$damageGroup}: {$amount}
 health-analyzer-window-damage-type-text = {$damageType}: {$amount}
 health-analyzer-window-damage-type-duplicate-text = {$damageType}: {$amount} (duplicate)
+
+health-analyzer-window-scan-mode-text = Escaneamento:
+health-analyzer-window-scan-mode-active = ATIVO
+health-analyzer-window-scan-mode-inactive = INATIVO
 
 health-analyzer-window-damage-group-Brute = Bruto
 health-analyzer-window-damage-type-Blunt = Contundente
@@ -29,3 +34,4 @@ health-analyzer-window-damage-type-Radiation = Radiação
 
 health-analyzer-window-damage-group-Genetic = Genético
 health-analyzer-window-damage-type-Cellular = Celular
+health-analyzer-window-malnutrition = Gravemente desnutrido

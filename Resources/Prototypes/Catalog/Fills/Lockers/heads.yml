@@ -17,6 +17,7 @@
       - id: RubberStampQm
       - id: ClothingHeadsetAltCargo
       - id: BoxEncryptionKeyCargo
+      - id: PrinterDocFlatpack # Corvax-Printer
 
 
 - type: entity
@@ -46,11 +47,10 @@
       - id: WeaponAntiqueLaser
       - id: JetpackCaptainFilled
       - id: MedalCase
-      - id: WeaponEnergyGun
 
 - type: entity
   id: LockerCaptainFilled
-  suffix: Filled
+  suffix: Filled, AntiqueLaser
   parent: LockerCaptain
   components:
   - type: StorageFill
@@ -73,7 +73,31 @@
       - id: WeaponAntiqueLaser
       - id: JetpackCaptainFilled
       - id: MedalCase
-      - id: WeaponEnergyGun
+
+- type: entity
+  id: LockerCaptainFilledNoLaser
+  suffix: Filled
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterArmorCaptainCarapace
+      - id: NukeDisk
+      - id: PinpointerNuclear
+      - id: CaptainIDCard
+      - id: WeaponDisabler
+      - id: CommsComputerCircuitboard
+      - id: ClothingHeadsetAltCommand
+      - id: SpaceCash1000
+      - id: PlushieNuke
+        prob: 0.1
+      - id: CigarGoldCase
+        prob: 0.25
+      - id: ClothingBeltSheathFilled
+      - id: DoorRemoteCommand
+      - id: RubberStampCaptain
+      - id: JetpackCaptainFilled
+      - id: MedalCase
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -101,7 +125,9 @@
       - id: ClothingBackpackIan
         prob: 0.5
       - id: AccessConfigurator
-      - id: WeaponEnergyGun
+      - id: WeaponEnergyGunMultiphase
+        prob: 0.1
+      - id: PrinterDocFlatpack # Corvax-Printer
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
@@ -112,8 +138,6 @@
     contents:
       - id: ClothingOuterHardsuitEngineeringWhite
       - id: ClothingMaskBreath
-      - id: OxygenTankFilled
-      - id: NitrogenTankFilled
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingShoesBootsMagAdv
@@ -162,7 +186,6 @@
       - id: ClothingHeadsetAltMedical
       - id: ClothingCloakCmo
       - id: ClothingBackpackDuffelSurgeryFilled
-      - id: ClothingOuterCoatLabCmo
       - id: ClothingMaskSterile
       - id: ClothingHeadHatBeretCmo
       - id: ClothingOuterHardsuitMedical
@@ -175,11 +198,11 @@
         amount: 3
       - id: BoxEncryptionKeyMedical
       - id: CloningPodMachineCircuitboard
-        prob: 0.67
+        prob: 0.3
       - id: CloningConsoleComputerCircuitboard
-        prob: 0.67
+        prob: 0.3
       - id: MedicalScannerMachineCircuitboard
-        prob: 0.67
+        prob: 0.3
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -203,8 +226,11 @@
         amount: 3
       - id: BoxEncryptionKeyMedical
       - id: CloningPodMachineCircuitboard
+        prob: 0.3
       - id: CloningConsoleComputerCircuitboard
+        prob: 0.3
       - id: MedicalScannerMachineCircuitboard
+        prob: 0.3
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
@@ -216,13 +242,14 @@
       - id: ResearchComputerCircuitboard
       - id: ProtolatheMachineCircuitboard
       - id: CircuitImprinterMachineCircuitboard
-      - id: ClothingHeadsetMedicalScience
       - id: ClothingOuterHardsuitRd
       - id: HandTeleporter
       - id: DoorRemoteResearch
       - id: ClothingBeltUtilityFilled
       - id: RubberStampRd
       - id: BoxEncryptionKeyScience
+      - id: ClothingHeadsetAltScience
+      - id: EncryptionKeyBinary
 
 - type: entity
   id: LockerResearchDirectorFilled
@@ -234,12 +261,13 @@
       - id: ResearchComputerCircuitboard
       - id: ProtolatheMachineCircuitboard
       - id: CircuitImprinterMachineCircuitboard
-      - id: ClothingHeadsetMedicalScience
       - id: HandTeleporter
       - id: DoorRemoteResearch
       - id: ClothingBeltUtilityFilled
       - id: RubberStampRd
       - id: BoxEncryptionKeyScience
+      - id: ClothingHeadsetAltScience
+      - id: EncryptionKeyBinary
 
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
@@ -248,14 +276,14 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingEyesHudSecurity
       - id: WeaponDisabler
       - id: ClothingOuterCoatHoSTrench
+      - id: ClothingMaskNeckGaiter
       - id: ClothingOuterHardsuitSecurityRed
       - id: ClothingMaskGasSwat
       - id: ClothingBeltSecurityFilled
       - id: ClothingHeadsetAltSecurity
-      - id: ClothingEyesGlassesSunglasses
+      - id: ClothingEyesGlassesSecurity
       - id: ClothingShoesBootsJack
       - id: CigarGoldCase
         prob: 0.50
@@ -267,7 +295,6 @@
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
       - id: WeaponEnergyGunMultiphase
-      - id: WeaponEnergyGun
       - id: SecBreachingHammer
 
 - type: entity
@@ -277,12 +304,12 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingEyesHudSecurity
       - id: WeaponDisabler
       - id: ClothingOuterCoatHoSTrench
+      - id: ClothingMaskNeckGaiter
       - id: ClothingBeltSecurityFilled
       - id: ClothingHeadsetAltSecurity
-      - id: ClothingEyesGlassesSunglasses
+      - id: ClothingEyesGlassesSecurity
       - id: ClothingShoesBootsJack
       - id: CigarGoldCase
         prob: 0.50
@@ -293,7 +320,6 @@
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
       - id: WeaponEnergyGunMultiphase
-      - id: WeaponEnergyGun
       - id: SecBreachingHammer
 
 - type: entity

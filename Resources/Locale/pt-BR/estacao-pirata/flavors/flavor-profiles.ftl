@@ -6,3 +6,5 @@ flavor-complex-pudimchocolate = de pudim de chocolate
 flavor-complex-fantastica = de laranja
 flavor-complex-sindkol = de cerveja Pilsen
 flavor-complex-corote = de cachaça barata e forte
+flavor-complex-bubbletea = de doçura cremosa
+flavor-complex-chocolatederretido = de algo muito amargo.

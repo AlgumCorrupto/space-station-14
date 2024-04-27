@@ -50,12 +50,25 @@ flavor-base-horrible = horrível
 
 # lmao
 flavor-base-terrible = terrível
+flavor-base-mindful = atento
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
 
 flavor-complex-nothing = de nada
 flavor-complex-honey = de mel
+
+# Condiments
+
+flavor-complex-ketchunaise = como tomates e maionese
+flavor-complex-mayonnaise = como maionese
+flavor-complex-mustard = como mostarda
+
+# Condiments
+
+flavor-complex-ketchunaise = como tomates e maionese
+flavor-complex-mayonnaise = como maionese
+flavor-complex-mustard = como mostarda
 
 # Food-specific flavors.
 
@@ -157,6 +170,10 @@ flavor-complex-plastic = de plástico
 flavor-complex-glue = de cola
 flavor-complex-spaceshroom = como umami espacial
 flavor-complex-lost-friendship = como amizade perdida
+flavor-complex-light = como uma luz que apagou
+flavor-complex-profits = como lucro
+flavor-complex-fishops = como os temidos fishops
+flavor-complex-violets = como violetas
 
 # Drink-specific flavors.
 
@@ -169,8 +186,36 @@ flavor-complex-rocksandstones = de pedra e rocha
 ## Basic drinks
 flavor-complex-water = de água
 flavor-complex-beer = de cerveja
+flavor-complex-cognac = como álcool seco picante
+flavor-complex-mead = como mel fermentado
+flavor-complex-vermouth = como cascas de uva de ervas
+flavor-complex-cognac = como álcool seco picante
+flavor-complex-mead = como mel fermentado
+flavor-complex-vermouth = como cascas de uva de ervas
 flavor-complex-ale = de pão
+flavor-complex-tonic-water = como água com raiva
+flavor-complex-tonic-water = como água com raiva
 flavor-complex-cola = de cola
+flavor-complex-energy-drink = como ácido da bateria
+flavor-complex-dr-gibb = como negligência
+flavor-complex-grape-soda = como refrigerante de uva
+flavor-complex-lemon-lime-soda = como refrigerante de limão-lima
+flavor-complex-pwr-game-soda = como jogos
+flavor-complex-root-beer-soda = como refrigerante de raiz
+flavor-complex-citrus-soda = como refrigerante cítrico
+flavor-complex-space-up-soda = como espaço
+flavor-complex-starkist-soda = como refrigerante de laranja
+flavor-complex-fourteen-loko-soda = como um malte doce
+flavor-complex-energy-drink = como ácido da bateria
+flavor-complex-dr-gibb = como negligência
+flavor-complex-grape-soda = como refrigerante de uva
+flavor-complex-lemon-lime-soda = como refrigerante de limão-lima
+flavor-complex-pwr-game-soda = como jogos
+flavor-complex-root-beer-soda = como refrigerante de raiz
+flavor-complex-citrus-soda = como refrigerante cítrico
+flavor-complex-space-up-soda = como espaço
+flavor-complex-starkist-soda = como refrigerante de laranja
+flavor-complex-fourteen-loko-soda = como um malte doce
 flavor-complex-vodka = de grãos fermentados
 flavor-complex-tequila = de bebida fermentada
 flavor-complex-sake = de doce e alcoólico arroz
@@ -190,9 +235,19 @@ flavor-complex-mopwata = como água estagnada e suja
 flavor-complex-long-island = suspeitosamente de chá gelado
 flavor-complex-three-mile-island = de chá feito em chernobyl
 flavor-complex-whiskey-cola = de whisky carbonatado
+flavor-complex-root-beer-float = como sorvete em refrigerante de raiz
+flavor-complex-black-russian = como café alcoólico
+flavor-complex-white-russian = como café adoçado alcoólico
+flavor-complex-moonshine = como álcool puro
+flavor-complex-root-beer-float = como sorvete em refrigerante de raiz
+flavor-complex-black-russian = como café alcoólico
+flavor-complex-white-russian = como café adoçado alcoólico
+flavor-complex-moonshine = como álcool puro
 flavor-complex-singulo = de um poço sem fundo
 flavor-complex-syndie-bomb = de whisky amargo
 flavor-complex-tequila-sunrise = de uma manhã mexicana
+flavor-complex-irish-car-bomb = como creme de baunilha e whisky
+flavor-complex-irish-car-bomb = como creme de baunilha e whisky
 flavor-complex-irish-coffee = de um despertador alcoólico
 flavor-complex-iced-beer = de cerveja fria como gelo
 flavor-complex-gargle-blaster = como se alguém tivesse esmagado a sua cabeça com um tijolo de ouro coberto de limão
@@ -222,3 +277,4 @@ flavor-complex-bee = inacreditável
 flavor-complex-sax = de jazz
 flavor-complex-bottledlightning = como um relâmpago engarrafado
 flavor-complex-punishment = de punição
+flavor-weh = like weh

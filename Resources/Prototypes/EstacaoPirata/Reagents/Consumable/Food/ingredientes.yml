@@ -1,0 +1,18 @@
+- type: reagent
+  id: ChocolateDerretido
+  name: reagent-name-chocolate
+  group: Foods
+  desc: reagent-desc-chocolate
+  physicalDesc: reagent-physical-desc-dark-brown
+  flavor: ChocolateDerretido
+  color: "#403222"
+  recognizable: true
+  metabolisms:
+    Food:
+      effects:
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.3
+      - !type:AdjustReagent
+        reagent: Nutriment
+        amount: 0.2

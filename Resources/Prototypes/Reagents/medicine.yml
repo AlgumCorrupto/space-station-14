@@ -36,7 +36,7 @@
         - !type:ReagentThreshold
           min: 20
         damage:
-          types:
+          groups:
             Brute: 2
       - !type:Jitter
         conditions:
@@ -209,6 +209,26 @@
             types:
              Cellular: -2
 
+- type: reagent
+  id: Opporozidone #Name based of an altered version of the startreck chem "Opporozine"
+  name: reagent-name-opporozidone
+  group: Medicine
+  desc: reagent-desc-opporozidone
+  physicalDesc: reagent-physical-desc-sickly
+  flavor: acid
+  color: "#b5e36d"
+  worksOnTheDead: true
+  metabolisms:
+    Medicine:
+      effects:
+        - !type:ReduceRotting
+          conditions:
+          #Patient must be dead and in a cryo tube (or something cold)
+          - !type:Temperature
+            max: 150.0
+          - !type:MobStateCondition
+            mobstate: Dead
+          
 - type: reagent
   id: Dermaline
   name: reagent-name-dermaline
@@ -566,6 +586,33 @@
         probability: 0.05
 
 - type: reagent
+  id: PolypyryliumOligomers
+  name: reagent-name-polypyrylium-oligomers
+  group: Medicine
+  desc: reagent-desc-polypyrylium-oligomers
+  physicalDesc: reagent-physical-desc-pungent
+  flavor: violets
+  color: "#9423FF"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -3.5
+          types:
+            Asphyxiation: -2.5
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 30
+        damage:
+          types:
+            Asphyxiation: 3.5
+      - !type:ModifyBleedAmount
+        amount: -0.25
+
+- type: reagent
   id: Ambuzol
   name: reagent-name-ambuzol
   group: Medicine
@@ -681,7 +728,7 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: 3
+            Poison: 2
       - !type:GenericStatusEffect
         key: Stun
         time: 3.0
@@ -1136,3 +1183,25 @@
               Burn: -5
             types:
               Poison: -2
+
+- type: reagent
+  id : Aloxadone
+  name: reagent-name-aloxadone
+  group: Medicine
+  desc: reagent-desc-aloxadone
+  physicalDesc: reagent-physical-desc-soothing
+  flavor: medicine
+  color: "#89f77f"
+  worksOnTheDead: true
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:Temperature
+          max: 213.0
+        damage:
+          types:
+            Heat: -3.0
+            Shock: -3.0
+            Caustic: -1.0

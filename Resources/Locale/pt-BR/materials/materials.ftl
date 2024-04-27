@@ -25,6 +25,7 @@ materials-meat = carne
 materials-web = seda
 materials-bones = osso
 materials-coal = carvão
+materials-gunpowder = pólvora
 
 # Ores
 materials-raw-iron = ferro bruto
@@ -34,6 +35,4 @@ materials-raw-silver = prata bruto
 materials-raw-plasma = plasma bruto
 materials-raw-uranium = urânio bruto
 materials-raw-bananium = bananium bruto
-
-# Material Reclaimer
-material-reclaimer-upgrade-process-rate = taxa de processo
+materials-raw-salt = sal em pedras

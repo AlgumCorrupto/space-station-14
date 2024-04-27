@@ -26,12 +26,23 @@ namespace Content.Shared.Humanoid
 
             switch (speciesProto.Naming)
             {
+                case SpeciesNaming.First:
+                    return Loc.GetString("namepreset-first",
+                        ("first", GetFirstName(speciesProto, gender)));
                 case SpeciesNaming.TheFirstofLast:
                     return Loc.GetString("namepreset-thefirstoflast",
                         ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
                 case SpeciesNaming.FirstDashFirst:
                     return Loc.GetString("namepreset-firstdashfirst",
                         ("first1", GetFirstName(speciesProto, gender)), ("first2", GetFirstName(speciesProto, gender)));
+                case SpeciesNaming.XnoY:
+                    return Loc.GetString("namepreset-x-no-y",
+                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
+				 // Parkstation-IPC-Start
+                case SpeciesNaming.FirstDashLast:
+                    return Loc.GetString("namepreset-firstdashlast",
+                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
+				 // Parkstation-IPC-End
                 case SpeciesNaming.FirstLast:
                 default:
                     return Loc.GetString("namepreset-firstlast",

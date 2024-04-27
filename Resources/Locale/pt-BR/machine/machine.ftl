@@ -9,14 +9,9 @@ machine-upgrade-decreased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/col
 machine-upgrade-not-upgraded = [color=yellow]{CAPITALIZE($upgraded)}[/color] not upgraded.
 
 machine-part-name-capacitor = Capacitor
-machine-part-name-manipulator = Manipulator
-machine-part-name-matter-bin = Matter Bin
-machine-part-name-power-cell = Power Cell
-
-upgrade-power-draw = consumo de energia
-upgrade-max-charge = carga máxima
-upgrade-power-supply = fonte de energia
-upgrade-power-supply-ramping = taxa de rampa de potência
+machine-part-name-manipulator = Micromanipulador
+machine-part-name-matter-bin = Caixa de matéria
+machine-part-name-power-cell = Célula de energia
 
 two-way-lever-left = empurrar para esquerda
 two-way-lever-right = empurrar para a direita

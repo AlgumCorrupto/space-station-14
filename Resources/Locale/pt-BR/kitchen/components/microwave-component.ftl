@@ -9,7 +9,6 @@ microwave-component-suicide-multi-head-others-message = {$victim} está tentando
 microwave-component-suicide-others-message = {$victim} está tentando cozinhar sua própria cabeça!
 microwave-component-suicide-multi-head-message = Você cozinha suas cabeças!
 microwave-component-suicide-message = Você cozinha sua cabeça!
-microwave-component-upgrade-cook-time = hora de cozinhar
 microwave-component-interact-full = Está cheio.
 microwave-component-interact-item-too-big = { CAPITALIZE(THE($item)) } é muito grande para caber no micro-ondas!
 
@@ -17,6 +16,8 @@ microwave-component-interact-item-too-big = { CAPITALIZE(THE($item)) } é muito 
 
 microwave-bound-user-interface-instant-button = INSTANTÂNEO
 microwave-bound-user-interface-cook-time-label = TEMPO PARA COZER: {$time}
+microwave-menu-footer-flavor-left = Não insira nenhum eletrônico, metais ou seres vivos.
+microwave-menu-footer-flavor-right = v1.5
 
 ## UI
 

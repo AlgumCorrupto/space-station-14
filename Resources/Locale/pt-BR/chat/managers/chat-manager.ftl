@@ -21,10 +21,10 @@ chat-manager-whisper-headset-on-message = Você não pode sussurrar no rádio!
 chat-manager-server-wrap-message = [bold]{$message}[/bold]
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]Anúncio de {$sender}:[/font][font size=12]
                                                 {$message}[/bold][/font]
-chat-manager-entity-say-wrap-message = [BubbleHeader][bold]{$entityName}[/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold]{$entityName}[/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][bold]{$message}[/bold][/BubbleContent]"[/font]
+chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
+chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][bold]{$message}[/bold][/BubbleContent]"[/font]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader]{$entityName}[/BubbleHeader] sussurra,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] sussurra,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
 chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Alguém[/BubbleHeader] sussurra, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
 
 # THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
@@ -92,6 +92,10 @@ chat-speech-verb-skeleton-1 = chocalha
 chat-speech-verb-skeleton-2 = estala
 chat-speech-verb-skeleton-3 = range
 
+chat-speech-verb-vox-1 = guincha
+chat-speech-verb-vox-2 = pia
+chat-speech-verb-vox-3 = cui
+
 chat-speech-verb-canine-1 = late
 chat-speech-verb-canine-2 = ladre
 chat-speech-verb-canine-3 = uivos
@@ -113,3 +117,7 @@ chat-speech-verb-ghost-1 = reclama
 chat-speech-verb-ghost-2 = suspira
 chat-speech-verb-ghost-3 = zumbe
 chat-speech-verb-ghost-4 = murmura
+
+chat-speech-verb-electricity-1 = estalando
+chat-speech-verb-electricity-2 = zumbidas
+chat-speech-verb-electricity-3 = gritos

@@ -1,3 +1,4 @@
+using Content.Shared.DoAfter;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
@@ -27,6 +28,14 @@ public sealed partial class LockComponent : Component
     public bool LockOnClick;
 
     /// <summary>
+    /// Whether or not the lock is toggled by simply clicking.
+    /// </summary>
+    [DataField("unlockOnClick"), ViewVariables(VVAccess.ReadWrite)]
+    [AutoNetworkedField]
+    public bool UnlockOnClick = true;
+
+
+    /// <summary>
     /// The sound played when unlocked.
     /// </summary>
     [DataField("unlockingSound"), ViewVariables(VVAccess.ReadWrite)]
@@ -50,6 +59,28 @@ public sealed partial class LockComponent : Component
     [DataField("breakOnEmag")]
     [AutoNetworkedField]
     public bool BreakOnEmag = true;
+
+
+
+    /// <summary>
+    /// Amount of do-after time needed to lock the entity.
+    /// </summary>
+    /// <remarks>
+    /// If set to zero, no do-after will be used.
+    /// </remarks>
+    [DataField]
+    [AutoNetworkedField]
+    public TimeSpan LockTime;
+
+    /// <summary>
+    /// Amount of do-after time needed to unlock the entity.
+    /// </summary>
+    /// <remarks>
+    /// If set to zero, no do-after will be used.
+    /// </remarks>
+    [DataField]
+    [AutoNetworkedField]
+    public TimeSpan UnlockTime;
 }
 
 /// <summary>
@@ -64,3 +95,38 @@ public record struct LockToggleAttemptEvent(EntityUid User, bool Silent = false,
 /// </summary>
 [ByRefEvent]
 public readonly record struct LockToggledEvent(bool Locked);
+
+/// <summary>
+/// Used to lock a lockable entity that has a lock time configured.
+/// </summary>
+/// <seealso cref="LockComponent"/>
+/// <seealso cref="LockSystem"/>
+[Serializable, NetSerializable]
+public sealed partial class LockDoAfter : DoAfterEvent
+{
+    public override DoAfterEvent Clone()
+    {
+        return this;
+    }
+}
+
+/// <summary>
+/// Used to unlock a lockable entity that has an unlock time configured.
+/// </summary>
+/// <seealso cref="LockComponent"/>
+/// <seealso cref="LockSystem"/>
+[Serializable, NetSerializable]
+public sealed partial class UnlockDoAfter : DoAfterEvent
+{
+    public override DoAfterEvent Clone()
+    {
+        return this;
+    }
+}
+
+[NetSerializable]
+[Serializable]
+public enum LockVisuals : byte
+{
+    Locked
+}

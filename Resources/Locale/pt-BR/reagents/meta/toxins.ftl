@@ -13,6 +13,9 @@ reagent-desc-polytrinic-acid = Substância química extremamente corrosiva. Grav
 reagent-name-chloral-hydrate = chloral hydrate
 reagent-desc-chloral-hydrate = Um fármaco sedativo e hipnótico. Comumente usado para colocar outras pessoas para dormir, quer elas queiram quer não.
 
+reagent-name-gastrotoxin = gastrotoxina
+reagent-desc-gastrotoxin = Um subproduto moderadamente tóxico da decomposição. Mais comumente encontrado em alimentos estragados.
+
 reagent-name-ferrochromic-acid = ferrochromic acid
 reagent-desc-ferrochromic-acid = Uma solução levemente corrosiva, incapaz de causar perigo grave a menos que seja ingerida.
 
@@ -26,10 +29,10 @@ reagent-name-unstable-mutagen = unstable mutagen
 reagent-desc-unstable-mutagen = Causa mutações quando injetado em pessoas ou plantas vivas. Altas doses podem ser letais, especialmente em humanos.
 
 reagent-name-heartbreaker-toxin = heartbreaker toxin
-reagent-desc-heartbreaker-toxin = Bloqueia sinais neurológicos para o sistema respiratório, causando asfixia.
+reagent-desc-heartbreaker-toxin = Bloqueia sinais neurológicos para o sistema respiratório, causando asfixia. Porém, dexalina plus e epinefrina a filtrarão.
 
 reagent-name-lexorin = lexorin
-reagent-desc-lexorin = Um produto químico de ação rápida usado para asfixiar pessoas rapidamente. No entanto dexalin, dexalin plus e epinefrina irão neutralizá-lo.
+reagent-desc-lexorin = Um produto químico de ação rápida usado para asfixiar pessoas rapidamente.
 
 reagent-name-mindbreaker-toxin = mindbreaker toxin
 reagent-desc-mindbreaker-toxin = Um potente composto alucinógeno que era conhecido como LSD.

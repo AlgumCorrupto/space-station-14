@@ -252,3 +252,12 @@ reagent-desc-white-russian = Isso é só, tipo, a sua opinião, cara...
 
 reagent-name-caipirinha = caipirinha
 reagent-desc-caipirinha = Pra assistir um jogo de futebol.
+
+reagent-name-clownblood = clown blood
+reagent-desc-clownblood = A bebida favorita da Sec após um longo dia.
+
+reagent-name-sindkol = sindkol
+reagent-desc-sindkol = Uma cerveja leve e suave, tipo Pilsen. Se beber, não dirija.
+
+reagent-name-corote = corote
+reagent-desc-corote = Introduzindo adolescentes ao alcoolismo desde 1958.
