@@ -18,5 +18,6 @@
         <Button Name="ShowMarkersButton" Access="Public" Text="{Loc sandbox-window-show-spawns-button}" ToggleMode="True"/>
         <Button Name="ShowBbButton" Access="Public" Text="{Loc sandbox-window-show-bb-button}" ToggleMode="True"/>
         <Button Name="MachineLinkingButton" Access="Public" Text="{Loc sandbox-window-link-machines-button}" ToggleMode="True"/>
+        <Button Name="DmmViewerButton" Access="Public" Text="Open Dmm Viewer"/>
     </BoxContainer>
 </windows:SandboxWindow>

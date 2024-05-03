@@ -1,0 +1,20 @@
+<DefaultWindow  xmlns="https://spacestation14.io"
+                Resizable="True"
+                Title="DmmViewer">
+    <BoxContainer Orientation="Horizontal" >
+        <BoxContainer Orientation="Vertical" MinWidth="150">
+            <BoxContainer Orientation="Vertical">
+                <Button StyleClasses="ButtonColorGreen" Name="SelectFile" Text="Select DMM File"/>
+                <Button StyleClasses="ButtonColorRed" Disabled="True" Name="SpawnMap" Text="Spawn Map"/>
+            </BoxContainer>
+            <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <Label Name="Currx" Text="CurrX: --"/>
+                <Label Name="Curry" Text="CurrY: --"/>
+                <Label Name="Currz" Text="CurrZ: --"/>
+            </BoxContainer>
+        </BoxContainer>
+        <BoxContainer Name="TileSection" Orientation="Vertical" MinWidth="150">
+            <!--Here should be all the tiles-->
+        </BoxContainer>
+    </BoxContainer>
+</DefaultWindow>

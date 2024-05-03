@@ -19,6 +19,7 @@ using Robust.Shared.Input.Binding;
 using Robust.Shared.Map;
 using Robust.Shared.Player;
 using Robust.Shared.Utility;
+using Content.Client.Dmm.UI;
 using static Robust.Client.UserInterface.Controls.BaseButton;
 
 namespace Content.Client.UserInterface.Systems.Sandbox;
@@ -43,8 +44,8 @@ public sealed class SandboxUIController : UIController, IOnStateChanged<Gameplay
     private EntitySpawningUIController EntitySpawningController => UIManager.GetUIController<EntitySpawningUIController>();
     private TileSpawningUIController TileSpawningController => UIManager.GetUIController<TileSpawningUIController>();
     private DecalPlacerUIController DecalPlacerController => UIManager.GetUIController<DecalPlacerUIController>();
-
     private MenuButton? SandboxButton => UIManager.GetActiveUIWidgetOrNull<MenuBar.Widgets.GameTopMenuBar>()?.SandboxButton;
+    private DmmViewer _dmmViewer = new DmmViewer();
 
     public void OnStateEntered(GameplayState state)
     {
@@ -104,7 +105,7 @@ public sealed class SandboxUIController : UIController, IOnStateChanged<Gameplay
 
     private void EnsureWindow()
     {
-        if(_window is { Disposed: false })
+        if (_window is { Disposed: false })
             return;
         _window = UIManager.CreateWindow<SandboxWindow>();
         _window.OnOpen += () => { SandboxButton!.Pressed = true; };
@@ -130,6 +131,7 @@ public sealed class SandboxUIController : UIController, IOnStateChanged<Gameplay
         _window.ShowMarkersButton.OnPressed += _ => _sandbox.ShowMarkers();
         _window.ShowBbButton.OnPressed += _ => _sandbox.ShowBb();
         _window.MachineLinkingButton.OnPressed += _ => _sandbox.MachineLinking();
+        _window.DmmViewerButton.OnPressed += _ => _dmmViewer.Open();
     }
 
     private void CheckSandboxVisibility()
