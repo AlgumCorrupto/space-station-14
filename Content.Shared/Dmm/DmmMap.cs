@@ -1,4 +1,4 @@
-namespace Content.Client.Dmm
+namespace Content.Shared.Dmm
 {
     public sealed class DmmMap
     {

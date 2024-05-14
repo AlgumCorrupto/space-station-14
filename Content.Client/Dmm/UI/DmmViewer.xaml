@@ -1,5 +1,5 @@
 <DefaultWindow  xmlns="https://spacestation14.io"
-                Resizable="True"
+                Resizable="False"
                 Title="DmmViewer">
     <BoxContainer Orientation="Horizontal" >
         <BoxContainer Orientation="Vertical" MinWidth="150">
@@ -8,9 +8,9 @@
                 <Button StyleClasses="ButtonColorRed" Disabled="True" Name="SpawnMap" Text="Spawn Map"/>
             </BoxContainer>
             <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom">
-                <Label Name="Currx" Text="CurrX: --"/>
-                <Label Name="Curry" Text="CurrY: --"/>
-                <Label Name="Currz" Text="CurrZ: --"/>
+                <Label Name="Maxx" Text="Max X: --"/>
+                <Label Name="Maxy" Text="Max Y: --"/>
+                <Label Name="Maxz" Text="Max Z: --"/>
             </BoxContainer>
         </BoxContainer>
         <BoxContainer Name="TileSection" Orientation="Vertical" MinWidth="150">

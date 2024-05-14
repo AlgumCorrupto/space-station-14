@@ -6,6 +6,10 @@ using Robust.Client.UserInterface.CustomControls;
 using Robust.Client.UserInterface.XAML;
 using static Robust.Client.UserInterface.Controls.BaseButton;
 using Content.Client.Dmm.Interpreter;
+using Content.Shared.Dmm;
+using Robust.Shared.Utility;
+using Content.Shared.Mobs;
+using YamlDotNet.RepresentationModel;
 
 namespace Content.Client.Dmm.UI
 {
@@ -41,7 +45,16 @@ namespace Content.Client.Dmm.UI
             await using var memStream = new MemoryStream((int) file.Length);
             await file.CopyToAsync(memStream);
             _map = _dmmParser.Parse(memStream.GetBuffer());
-
+            Maxx.Text = "Max X: " + _map.MaxX.ToString();
+            Maxy.Text = "Max Y: " + _map.MaxY.ToString();
+            Maxz.Text = "Max Z: " + _map.MaxZ.ToString();
+            var path = new ResPath("/Resources/Prototypes/EstacaoPirata/DmmDicts/goon-dict.yml");
+            var adapter = new DmmAdapter(path);
+            var converter = new DmmComverter();
+            var converted = converter.DoConversion(_map, adapter);
+            var yaml = new YamlStream(converted); 
+            yaml.str
+            await _fileDialogManager.SaveFile(A, base, c);
             // then unlock the spawn map button
             SpawnMap.Disabled = false;
             return;

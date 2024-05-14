@@ -1,0 +1,14 @@
+- tiles
+  Space: /area/space
+  Plating: /turf/simulated/floor/plating
+  WallSolid: /turf/simulated/all/auto/supernorn
+  Lattice: /obj/lattice
+  Catwalk: /turf/simulated/floor/airless/plating/catwalk
+  FloorGrassJungle: /turf/simulated/floor/grass/leafy
+  FloorGrass: "/turf/simulated/floor/grass"
+- entities
+  ReinforcedWindow: /obj/mapping_helper/wingrille_spawn/auto/reinforced
+  ReinforcedPlasmaWindow: /obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal
+  WallReinforced: /turf/simulated/all/auto/reinforced/supernorn
+  SolarPanel: /turf/simulated/floor/airless/solar
+

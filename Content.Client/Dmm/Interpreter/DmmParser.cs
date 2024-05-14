@@ -1,5 +1,5 @@
 using System.Text;
-using Content.Client.Dmm;
+using Content.Shared.Dmm;
 
 namespace Content.Client.Dmm.Interpreter
 {
@@ -61,7 +61,6 @@ namespace Content.Client.Dmm.Interpreter
             var flushCodingsToObjMap = () =>
             {
                 codingsToObjMap.Add(currCoding, currObj);
-                currCoding = "";
                 currObj = "";
             };
 
@@ -248,11 +247,11 @@ namespace Content.Client.Dmm.Interpreter
                     {
                         inObjArgs = true;
                     }
+                    if (!inObjArgs) currObj += Encoding.ASCII.GetString(new[]{content[i]});
                     if (content[i] == '}')
                     {
                         inObjArgs = false;
                     }
-                    currObj += Encoding.ASCII.GetString(new[]{content[i]});
                     i++;
                     continue;
                 }
